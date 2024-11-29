@@ -1,0 +1,8 @@
+1)logging why we use it because it provides devoloper a flexibility during running code
+ and it helps in debugging and monitoring and maintaining
+2)why we use requirements.txt although we have all librarys installed in our environment but when other people 
+using our project they might face some issue due to the librarys
+3)what is the use of the setup.py it is the way to orgainze the metadata and dependency and installation and distribution
+it package your project as python package by this it can be installed and reuse and it can be shared with other people
+4)git ignore is used to we are saying to git to ignore specific files and dictionarys it keep the repo clean and 
+impoves the time and reduce the risk of accidental commit of unused files
