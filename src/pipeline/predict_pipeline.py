@@ -2,8 +2,8 @@ import sys
 import pandas as pd
 from src.exception import CustomException
 from src.utils import load_object
-
-
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 class PredictPipeline:
     def __init__(self):
         pass
