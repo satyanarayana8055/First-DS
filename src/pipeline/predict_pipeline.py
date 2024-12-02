@@ -3,6 +3,15 @@ import pandas as pd
 from src.exception import CustomException
 from src.utils import load_object
 import os
+import os
+
+preprocessor_path = os.path.join("artifacts", "preprocessor.pkl")
+
+# Ensure the directory exists
+if not os.path.exists(preprocessor_path):
+    raise FileNotFoundError(f"Preprocessor file not found at {preprocessor_path}")
+
+preprocessor_path = os.path.join("artifacts", "preprocessor.pkl")
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 class PredictPipeline:
     def __init__(self):

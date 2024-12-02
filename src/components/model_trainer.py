@@ -1,7 +1,6 @@
 import os
 import sys
 from dataclasses import dataclass
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'src')))
 
 from catboost import CatBoostRegressor
 from sklearn.ensemble import (
